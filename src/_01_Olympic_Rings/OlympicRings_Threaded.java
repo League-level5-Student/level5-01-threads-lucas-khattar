@@ -32,7 +32,6 @@ public class OlympicRings_Threaded {
 			Robot three = new Robot(900, 200);
 			three.setSpeed(10);
 			three.setPenColor(Color.red);
-			three.moveTo(1);
 			three.setPenWidth(3);
 			for (int i = 0; i < 360; i++) {
 				three.move(3);
